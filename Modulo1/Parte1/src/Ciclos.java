@@ -47,6 +47,12 @@ public class Ciclos {
         }
 
         // tabla con for
-
+        int tablaSolicitud = 0;
+        System.out.print("Con el for que tabla de multiplicar necesitas: ");
+        tablaSolicitud = sc.nextInt();
+        System.out.println("La tabla del " + tablaSolicitud + " es: ");
+        for (int posicionTabla = 1; posicionTabla <= 10; posicionTabla++){
+            System.out.println(tablaSolicitud + "X" + posicionTabla + "=" + (tablaSolicitud * posicionTabla));
+        }
     }
 }
